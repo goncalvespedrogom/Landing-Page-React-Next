@@ -1,24 +1,22 @@
 import Image from "next/image";
 
 import { ItemMenu } from "./ItemMenu";
-import { Search } from "./Search";
 
-import Logo from '@/assets/logo.svg'
 import IconUser from '@/assets/icon-user.svg'
 import { Container } from "./Container";
+import LogoConnect from '@/assets/logo-connect-bank.png'
 
 export function Header() {
     return (
-        <header className="relative flex items-center w-full h-20 bg-primary-orange">
-            <div className="absolute top-0 right-0 bg-primary-blue w-[27%] h-full z-0"></div> {/* div que faz o btn azul de usuário ir até o final azul */}
+        <header className="relative flex items-center h-20 w-full bg-primary-white">
             <Container>
-                <div className="flex flex-1 items-center justify-between">
-                    <div className="flex items-center gap-14">
-                        <Image 
-                            src={Logo}
-                            alt="Logo"
-                        />
-                        <ul className="flex items-center gap-12 ">
+                <Image 
+                    src={LogoConnect}
+                    alt="Logo"
+                    className="w-40"
+                />
+                <div className="flex flex-1 items-center justify-center">
+                        <ul className="flex items-center gap-12">
                             <li>
                                 <ItemMenu 
                                     name="Para você"
@@ -41,14 +39,12 @@ export function Header() {
                             </li>
                         </ul>
                     </div>
-                    <Search />
-                </div>
-                <button className="flex items-center gap-4 bg-primary-blue h-20 pl-10 z-10">
+                <button className="flex items-center gap-4 border-solid border-second-green border-[2px] px-4 py-3 rounded-2xl">
                     <Image 
                         src={IconUser}
                         alt="Ícone do Usuário"
                     />
-                    <span className="text-white font-bold">Acessar conta</span>
+                    <span className="text-second-green font-bold">Acessar conta</span>
                 </button>
             </Container>
         </header>
