@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { ItemMenu } from "./ItemMenu";
 
-import IconUser from '@/assets/icon-user.svg'
+import IconUser from '@/assets/icon-user-full.svg'
 import { Container } from "./Container";
 import LogoConnect from '@/assets/logo-connect-bank.png'
 
@@ -43,6 +43,7 @@ export function Header() {
                     <Image 
                         src={IconUser}
                         alt="Ícone do Usuário"
+                        className="w-7"
                     />
                     <span className="text-second-green font-bold">Acessar conta</span>
                 </button>
