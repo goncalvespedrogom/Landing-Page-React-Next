@@ -7,7 +7,7 @@ import SoluctionsIcon from'@/assets/icon-solutions.svg'
 import OptionsIcon from '@/assets/icon-options.svg'
 import CardIcon from '@/assets/icon-card.svg'
 
-import ImagePhone from '@/assets/phone-green-2.png'
+import ImagePhone from '@/assets/phone-green-test.svg'
 
 export function SectionServices() {
     return (
@@ -58,7 +58,7 @@ export function SectionServices() {
                 </div>
             </Container>
             <div className="absolute top-0 right-0 flex items-center w-[32%] h-full bg-[#c3fdb6]">
-                <Image src={ImagePhone} alt="Celular" className="translate-x-[-50%]"/>
+                <Image src={ImagePhone} alt="Celular" className="translate-x-[-50%] w-[400px]"/>
             </div>
         </section>
     )
