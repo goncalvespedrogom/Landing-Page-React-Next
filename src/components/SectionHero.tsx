@@ -4,7 +4,7 @@ import Image from "next/image";
 import ImgAppleStore from '@/assets/btn-apple-store.svg'
 import ImgGooglePlay from '@/assets/btn-google-play.svg'
 import Arrow from '@/assets/arrow-explorer.svg'
-import Woman from '@/assets/woman-green-test.svg'
+import Woman from '@/assets/woman-green-shadow.svg'
 
 
 export function SectionHero() {
@@ -19,12 +19,14 @@ export function SectionHero() {
                             <Image 
                                 src={ImgAppleStore}
                                 alt="Logo da Apple Store"
+                                className="shadow-xl"
                             /> 
                         </button>
                         <button>
                             <Image 
                                 src={ImgGooglePlay}
                                 alt="Logo da Google Play"
+                                className="shadow-xl"
                             /> 
                         </button>
                     </div>
