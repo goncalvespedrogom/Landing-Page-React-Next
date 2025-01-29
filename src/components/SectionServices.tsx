@@ -11,7 +11,7 @@ import ImagePhone from '@/assets/phone-green-2.png'
 
 export function SectionServices() {
     return (
-        <section className="relative w-full h-[965px] bg-primary-white mt-[-2px]">
+        <section className="relative w-full bg-primary-white mt-[-2px] pb-[10rem]">
             <Container>
                 <div className="flex-1 max-w-[594px] pt-32">
                     <span className="block text-primary-white text-sm font-bold uppercase mb-9  border-solid bg-second-green border-second-green border-2 px-5 py-3 rounded-2xl max-w-[12rem] shadow-xl">Serviços para você</span>

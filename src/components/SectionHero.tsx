@@ -4,7 +4,7 @@ import Image from "next/image";
 import ImgAppleStore from '@/assets/btn-apple-store.svg'
 import ImgGooglePlay from '@/assets/btn-google-play.svg'
 import Arrow from '@/assets/arrow-explorer.svg'
-import Woman from '@/assets/woman-green-phone.png'
+import Woman from '@/assets/woman-green-phone-test2.png'
 
 
 export function SectionHero() {
@@ -41,7 +41,7 @@ export function SectionHero() {
                 <Image 
                     src={Woman}
                     alt="Mulher sorrindo com um celular nas mãos"
-                    className="mr-[-41]"
+                    className="mr-[100px] mt-10 w-[400px]"
                 />
             </Container>
         </section>
