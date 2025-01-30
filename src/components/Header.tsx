@@ -4,13 +4,13 @@ import { ItemMenu } from "./ItemMenu";
 
 import IconUser from "@/assets/icon-user-full.svg";
 import { Container } from "./Container";
-import LogoConnect from "@/assets/logo-connect-bank.png";
+import LogoConnect from "@/assets/logo-connect.svg";
 
 export function Header() {
   return (
     <header className="relative flex items-center h-24 w-full bg-primary-white">
       <Container>
-        <Image src={LogoConnect} alt="Logo" className="w-40" />
+        <Image src={LogoConnect} alt="Logo" className="w-44" />
         <div className="flex flex-1 items-center justify-center">
           <ul className="flex items-center gap-12">
             <li>
