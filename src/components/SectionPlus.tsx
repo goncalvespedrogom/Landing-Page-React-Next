@@ -19,7 +19,6 @@ export function SectionPlus() {
                     <span className="block text-primary-white text-sm font-bold uppercase mb-10 border-solid bg-second-green border-second-green border-2 px-5 py-3 rounded-2xl max-w-[14.2rem] shadow-xl ml-auto text-right">Infinitas possibilidades</span>
                     <h1 className="text-primary-gray text-[56px] font-bold leading-none mb-6 text-right">Um ecossistema completo de soluções financeiras</h1>
                     <p className="text-lg max-w-[554px] text-second-gray text-right mb-16">Com a Connect Bank, você tem acesso a uma plataforma inovadora de serviços bancários, oferecendo tudo o que precisa para gerenciar seu dinheiro de forma inteligente e sem limites.</p>
-
                     <ul className="grid grid-cols-2 gap-6 mt-8 max-w-[554px] mx-auto text-right text-txt-gray">
                         <li className="flex items-center gap-3 justify-end ">
                             <span className="w-10 h-10 flex items-center justify-center bg-second-green rounded-full">
@@ -64,11 +63,6 @@ export function SectionPlus() {
                             Rendimentos altos
                         </li>
                     </ul>
-
-
-
-
-
                 </div>
             </Container>
         </section>
