@@ -11,7 +11,6 @@ export function SectionHero() {
         <section className="w-full h-[704px] bg-img-bg-hero bg-no-repeat bg-center bg-cover flex items-center max-[1250px]:h-full">
             <Container>
                 <div className="flex flex-col lg:flex-row items-center justify-center h-full gap-8 max-[1250px]:mt-10 max-[1250px]:mx-auto">
-                    {/* Texto e botões */}
                     <div className="flex-1 max-w-[500px] text-center lg:text-left">
                         <h1 className="text-white text-6xl font-bold mb-6 max-[1250px]:text-4xl max-[1250px]:px-3">Tenha o controle do seu banco na ponta dos dedos</h1>
                         <p className="text-white text-xl max-w-[408px] mb-8 max-[1250px]:px-11 max-[1250px]:text-lg">Tudo o que você precisa em um único lugar.</p>
@@ -39,7 +38,6 @@ export function SectionHero() {
                             <span className="text-white text-sm font-bold">Continue explorando</span>
                         </button>
                     </div>
-                    {/* Imagem da Mulher */}
                     <Image 
                         src={Woman}
                         alt="Mulher sorrindo com um celular nas mãos"
