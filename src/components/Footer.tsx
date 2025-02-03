@@ -1,5 +1,11 @@
 import { ItemsFooter } from "@/components/ItemsFooter";
 import { Container } from "./Container";
+import Image from "next/image";
+
+import Facebook from '@/assets/facebook.svg'
+import Instagram from '@/assets/instagram.svg'
+import Linkedin from '@/assets/linkedin.svg'
+import Twitter from '@/assets/twitter.svg'
 
 export function Footer() {
   return (
@@ -37,7 +43,21 @@ export function Footer() {
       <Container>
         <ItemsFooter />
       </Container>
-      <div className="text-center pt-2 text-txt-gray text-sm pb-8">
+      <div className="flex flex-col gap-8 text-center text-txt-gray text-sm pb-8">
+        <p className="flex gap-4 mx-auto">
+          <a href="#" target="_blank" className="w-8 h-8 flex items-center justify-center hover:opacity-70">
+              <Image src={Facebook} alt="Logo do Facebook"/>
+          </a>
+          <a href="#" target="_blank" className="w-8 h-8 flex items-center justify-center hover:opacity-70">
+              <Image src={Instagram} alt="Logo do Instagram"/>
+          </a>
+          <a href="#" target="_blank" className="w-8 h-8 flex items-center justify-center hover:opacity-70">
+              <Image src={Linkedin} alt="Logo do LinkedIn"/>
+          </a>
+          <a href="#" target="_blank" className="w-8 h-8 flex items-center justify-center hover:opacity-70">
+              <Image src={Twitter} alt="Logo do Twitter"/>
+          </a>
+        </p>
         <span>Termos de Uso · Política de Privacidade</span>
       </div>
     </footer>
