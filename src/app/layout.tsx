@@ -10,8 +10,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Landing Page",
-  description: "Landing Page",
+  title: "Connect Bank",
+  description: "Tenha o controle do seu banco na ponta dos dedos",
+  icons:{
+    icon:['/favicon.ico?=v4'],
+    apple:['/apple-touch-icon.png?v=4'],
+    shortcut:['/apple-touch-icon.png']
+  },
+  openGraph: {
+    images: ['https://lh3.googleusercontent.com/pw/AP1GczM5USD8BRHP3xwhpnVHj9X286OneKPrSXxvLKgb51JEw5yuAFX7gBM8EHtGMxA_8s8OL0Z7ZUzGj_0QjrBe50U0QmO-Fk6tcKRnmHCSjKRvrJTTMCH29BypaE7OXcN2svASovilTAnWpcfzYRg7F6YE=w500-h500-s-no-gm?authuser=5']
+  },
+  twitter: {
+    images: ['https://lh3.googleusercontent.com/pw/AP1GczM5USD8BRHP3xwhpnVHj9X286OneKPrSXxvLKgb51JEw5yuAFX7gBM8EHtGMxA_8s8OL0Z7ZUzGj_0QjrBe50U0QmO-Fk6tcKRnmHCSjKRvrJTTMCH29BypaE7OXcN2svASovilTAnWpcfzYRg7F6YE=w500-h500-s-no-gm?authuser=5']
+  }
 };
 
 export default function RootLayout({
