@@ -31,26 +31,26 @@ export function SectionPlus() {
                         <p className="text-lg max-w-[554px] text-second-gray text-right mb-16 max-[1250px]:text-center max-[1250px]:px-6">
                             Com a Connect Bank, você tem acesso a uma plataforma inovadora de serviços bancários, oferecendo tudo o que precisa para gerenciar seu dinheiro de forma inteligente e sem limites.
                         </p>
-                        <ul className="grid grid-cols-2 gap-6 mt-8 max-w-[554px] ml-auto text-right text-txt-gray max-[1250px]:grid-cols-1 max-[1250px]:text-center max-[1250px]:mx-auto">
-                            <li className="flex items-center gap-3 justify-end mr-[-.5rem] max-[1250px]:justify-center max-[1250px]:mr-[-.6rem]">
+                        <ul className="grid grid-cols-2 gap-6 mt-8 max-lg:mt-[-1rem] max-w-[554px] text-right text-txt-gray max-lg:flex max-lg:flex-col max-lg:mx-auto max-lg:w-[200px]">
+                            <li className="flex items-center gap-3 justify-end mr-[-.5rem] max-lg:mr-0 max-lg:justify-start">
                                 <span className="w-10 h-10 flex items-center justify-center bg-second-green rounded-full">
                                     <Image src={Pay} alt="Pagamentos rápidos" className="text-primary-white w-6 h-6" />
                                 </span>
                                 Pagamentos rápidos
                             </li>
-                            <li className="flex items-center gap-3 justify-center mr-[-1rem] max-[1250px]:mr-0">
+                            <li className="flex items-center gap-3 justify-center mr-[-1rem] max-lg:mr-0 max-lg:justify-start">
                                 <span className="w-10 h-10 flex items-center justify-center bg-second-green rounded-full">
                                     <Image src={CardPlus} alt="Cartão digitalizado" className="text-primary-white w-6 h-6" />
                                 </span>
                                 Cartão digitalizado
                             </li>
-                            <li className="flex items-center gap-3 justify-end pr-[.75rem] max-[1250px]:justify-center mr-[-.5rem] max-[1250px]:mr-[-.6rem]">
+                            <li className="flex items-center gap-3 justify-end pr-[.75rem] max-lg:pr-0 mr-[-.5rem] max-lg:mr-0 max-lg:justify-start">
                                 <span className="w-10 h-10 flex items-center justify-center bg-second-green rounded-full">
                                     <Image src={Security} alt="Segurança robusta" className="text-primary-white w-6 h-6" />
                                 </span>
                                 Segurança robusta
                             </li>
-                            <li className="flex items-center gap-3 justify-center mr-[-.8rem] max-[1250px]:mr-[.1rem]">
+                            <li className="flex items-center gap-3 justify-center mr-[-.8rem] max-lg:mr-0 max-lg:justify-start">
                                 <span className="w-10 h-10 flex items-center justify-center bg-second-green rounded-full">
                                     <Image src={Graphic} alt="Rendimentos altos" className="text-primary-white w-6 h-6" />
                                 </span>
