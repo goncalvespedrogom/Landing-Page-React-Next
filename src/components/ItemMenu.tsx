@@ -53,7 +53,7 @@ export function ItemMenu({ name, items = [] }: ItemMenuProps) {
             {items.map((item, index) => (
               <li
                 key={index}
-                className="px-4 py-2 text-second-green hover:bg-second-green hover:text-primary-white cursor-pointer transition"
+                className="px-4 py-2 text-second-green hover:bg-second-green hover:text-primary-white cursor-pointer transition font-medium"
               >
                 {item}
               </li>

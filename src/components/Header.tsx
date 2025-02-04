@@ -8,7 +8,7 @@ import LogoConnect from "@/assets/logo-connect.svg";
 
 export function Header() {
   return (
-    <header className="relative flex items-center h-24 w-full bg-primary-white shadow-md">
+    <header className="relative flex items-center h-24 w-full bg-primary-white shadow-md max-lg:hidden">
       <Container>
         <Image src={LogoConnect} alt="Logo" className="w-44" />
         <nav className="flex flex-1 items-center justify-center">
