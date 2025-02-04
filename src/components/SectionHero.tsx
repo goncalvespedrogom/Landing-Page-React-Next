@@ -12,8 +12,8 @@ export function SectionHero() {
             <Container>
                 <div className="flex flex-col lg:flex-row items-center justify-center h-full gap-8 max-[1250px]:mt-10 max-[1250px]:mx-auto">
                     <div className="flex-1 max-w-[500px] text-center lg:text-left">
-                        <h1 className="text-white text-6xl font-bold mb-6 max-[1250px]:text-4xl max-[1250px]:px-3">Tenha o controle do seu banco na ponta dos dedos</h1>
-                        <p className="text-white text-xl max-w-[408px] mb-8 max-[1250px]:px-11 max-[1250px]:text-lg">Tudo o que você precisa em um único lugar.</p>
+                        <h1 className="text-white text-6xl font-bold mb-6 max-[1250px]:text-4xl max-[1250px]:px-6">Tenha o controle do seu banco na ponta dos dedos</h1>
+                        <p className="text-white max-lg:mx-auto text-xl max-w-[408px] mb-8 max-[1250px]:px-6 max-[1250px]:text-lg">Tudo o que você precisa em um único lugar.</p>
                         <div className="flex justify-center lg:justify-start gap-4 mb-24 max-[1250px]:px-6">
                             <button>
                                 <Image 

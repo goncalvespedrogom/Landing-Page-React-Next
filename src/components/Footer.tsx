@@ -12,7 +12,7 @@ export function Footer() {
     <footer className="bg-primary-white text-second-green">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#dddddd]  lg:py-7 max-lg:pt-7 max-lg:text-center">
         <Container>
-          <h1 className="text-white lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold lg:w-2/5 max-lg:w-full">
+          <h1 className="text-white lg:text-4xl text-3xl mb-6 lg:leading-normal font-semibold lg:w-2/5 max-lg:w-full">
             <span className="text-second-green font-semibold">
               Quer saber das novidades?
             </span>{" "}
