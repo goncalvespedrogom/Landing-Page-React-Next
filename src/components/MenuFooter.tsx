@@ -28,6 +28,7 @@ export const EMPRESA: MenuItem[] = [
 ];
 
 export const SUPORTE: MenuItem[] = [
+  { name: "Chat", link: "#" },
   { name: "Central de Ajuda", link: "#" },
   { name: "Tutoriais e Guias Rápidos", link: "#" },
   { name: "Webinars Financeiros", link: "#" },

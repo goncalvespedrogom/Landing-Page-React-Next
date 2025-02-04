@@ -12,7 +12,7 @@ const ItemFooter: React.FC<ItemFooterProps> = ({ Links, title }) => {
       <ul>
         {Links.map((link) => (
           <li key={link.name}>
-            <a className='text-txt-gray hover:text-second-green  duration-300 text-sm cursor-pointer leading-6' href={link.link}>{link.name}</a>
+            <a className='text-txt-gray hover:text-second-green duration-300 text-sm cursor-pointer leading-6' href={link.link}>{link.name}</a>
           </li>
         ))}
       </ul>
