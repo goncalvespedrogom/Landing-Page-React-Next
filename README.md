@@ -7,4 +7,4 @@
 
 </div>
 
-<p align="center"> Link para acesso: https://landing-page-react-next.vercel.app/</p>
+<p align="center"> Link para acesso: https://connectbank.vercel.app/</p>
